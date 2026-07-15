@@ -11,17 +11,17 @@ const REFRESH_MS = 25000; // cada cuánto se re-consultan los datos ("en vivo")
 // gids: haz clic en cada pestaña y copia el número después de '#gid=' en la URL
 // Mientras spreadsheetId diga 'PON_AQUI...', la app usa data/data.json local.
 const SHEETS_CONFIG = {
-  spreadsheetId: 'PON_AQUI_EL_ID_DE_TU_HOJA',
+  spreadsheetId: '1Q5egpkKGvRYhj35fE5vYcq06c6Uy4h6z',
   gids: {
-    evento: 'PON_AQUI_EL_GID',
-    colegios: 'PON_AQUI_EL_GID',
-    programa: 'PON_AQUI_EL_GID',
-    enVivo: 'PON_AQUI_EL_GID',
-    enVivoSiguientes: 'PON_AQUI_EL_GID',
-    enVivoFeed: 'PON_AQUI_EL_GID',
-    resultados: 'PON_AQUI_EL_GID',
-    noticias: 'PON_AQUI_EL_GID',
-    fotos: 'PON_AQUI_EL_GID'
+    evento: '1908663082',
+    colegios: '758688829',
+    programa: '1327758524',
+    enVivo: '234741795',
+    enVivoSiguientes: '1154661129',
+    enVivoFeed: '880608869',
+    resultados: '372395099',
+    noticias: '258954465',
+    fotos: '1124884628'
   }
 };
 // Pestañas sin las que la app no puede funcionar (si fallan, se usa el respaldo local)
