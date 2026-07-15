@@ -1,0 +1,73 @@
+{
+  "_comentario": "Este es el respaldo local que usa la app SOLO si no logra conectarse a Google Sheets. La edición real del día a día se hace en la planilla de Google Sheets, no aquí.",
+
+  "evento": {
+    "nombre": "VII Olimpiadas Atletismo FEMVO",
+    "organizacion": "Fundación Educacional Mario Veloso Oses (FEMVO)",
+    "edicion": "2026",
+    "fechaInicio": "2026-10-01T09:00:00-03:00",
+    "fechaTexto": "1 de octubre de 2026",
+    "lugar": "Estadio Municipal Alcaldesa Ester Roa Rebolledo",
+    "direccion": "Av. Ignacio Collao 481, esq. Tegualda, Concepción, Región del Biobío",
+    "mapsQuery": "Estadio Municipal Alcaldesa Ester Roa Rebolledo, Concepción, Chile",
+    "mapsDirLink": "https://www.google.com/maps/dir/?api=1&destination=Estadio+Municipal+Alcaldesa+Ester+Roa+Rebolledo+Concepci%C3%B3n+Chile",
+    "comoLlegar": "Paradero más cercano: \"Collao (Estadio Ester Roa)\", a 2 min caminando. Buses: 14, 21, 23, 24, 40, 70, entre otros.",
+    "programaVisible": true,
+    "_nota_fecha": "Encuentro de un solo día — 1 de octubre de 2026, mismo recinto que el Encuentro Nacional SEA."
+  },
+
+  "colegios": [
+    { "id": "eadma", "nombre": "Escuela Adventista de las Mariposas", "corto": "EADMA", "color": "#003769" },
+    { "id": "cach",  "nombre": "Colegio Adventista de Chile", "corto": "CACH", "color": "#FBB529" },
+    { "id": "cadech","nombre": "Colegio Adventista de Chillán", "corto": "CADECH", "color": "#AE2825" },
+    { "id": "eaq",   "nombre": "Escuela Adventista de Quirao", "corto": "EAQ", "color": "#4C8C4A" },
+    { "id": "eala",  "nombre": "Escuela Adventista de Los Ángeles", "corto": "EALA", "color": "#1B7DAE" },
+    { "id": "ceala", "nombre": "Centro Educativo Adventista de Los Ángeles", "corto": "CEALA", "color": "#6B4A8A" },
+    { "id": "lota",  "nombre": "Colegio Adventista de Lota", "corto": "C.A. Lota", "color": "#2E7D6B" },
+    { "id": "ceac",  "nombre": "Centro Educativo Adventista de Concepción", "corto": "CEAC", "color": "#D69A00" },
+    { "id": "cadec", "nombre": "Colegio Adventista de Concepción", "corto": "CADEC", "color": "#C2185B" },
+    { "id": "cadhu", "nombre": "Colegio Adventista de Hualpén", "corto": "CADHU", "color": "#5C6BC0" },
+    { "id": "cadet", "nombre": "Colegio Adventista de Talcahuano", "corto": "CADET", "color": "#8D6E63" },
+    { "id": "cadetc","nombre": "Colegio Adventista de Talcahuano Centro", "corto": "CADET Centro", "color": "#455A64" }
+  ],
+
+  "_comentario_programa": "EJEMPLO — reemplaza 'hora', 'prueba', 'categoria', 'genero' y 'estado' con tu programación real. estado puede ser: 'programado', 'en_curso' o 'finalizado'.",
+  "programa": [
+    {
+      "dia": "Día 1",
+      "fecha": "Jueves 1 de octubre",
+      "bloques": [
+        { "hora": "09:00", "prueba": "Ceremonia inaugural", "categoria": "General", "genero": "", "estado": "programado" },
+        { "hora": "09:30", "prueba": "100 metros planos — series", "categoria": "Sub-14", "genero": "Damas", "estado": "programado" },
+        { "hora": "09:50", "prueba": "100 metros planos — series", "categoria": "Sub-14", "genero": "Varones", "estado": "programado" },
+        { "hora": "10:15", "prueba": "Salto largo — clasificatoria", "categoria": "Sub-16", "genero": "Damas", "estado": "programado" },
+        { "hora": "10:45", "prueba": "Lanzamiento de bala", "categoria": "Sub-16", "genero": "Varones", "estado": "programado" },
+        { "hora": "11:15", "prueba": "800 metros planos — final", "categoria": "Sub-18", "genero": "Damas", "estado": "programado" },
+        { "hora": "11:45", "prueba": "400 metros vallas — final", "categoria": "Sub-18", "genero": "Varones", "estado": "programado" },
+        { "hora": "15:00", "prueba": "Posta 4x100", "categoria": "Sub-18", "genero": "Damas", "estado": "programado" },
+        { "hora": "15:20", "prueba": "Posta 4x100", "categoria": "Sub-18", "genero": "Varones", "estado": "programado" },
+        { "hora": "16:00", "prueba": "Premiación general", "categoria": "General", "genero": "", "estado": "programado" },
+        { "hora": "16:30", "prueba": "Ceremonia de clausura", "categoria": "General", "genero": "", "estado": "programado" }
+      ]
+    }
+  ],
+
+  "_comentario_envivo": "activo:false muestra 'aún no comienza'. El día del evento, cambia a true y completa actual/siguientes/feed a mano durante la jornada.",
+  "enVivo": {
+    "activo": false,
+    "actual": { "hora": "", "prueba": "", "categoria": "", "genero": "" },
+    "siguientes": [],
+    "feed": []
+  },
+
+  "_comentario_resultados": "Un renglón por cada puesto (1, 2 o 3) de cada prueba. 'colegio' debe escribirse igual que la columna 'corto' de Colegios. El medallero se calcula solo a partir de esto.",
+  "resultados": [],
+
+  "_comentario_noticias": "Se muestran en Inicio, la más nueva arriba. Agrega filas nuevas al final.",
+  "noticias": [],
+
+  "_comentario_fotos": "Sube la foto a Google Drive, compártela como 'Cualquiera con el enlace - Lector', copia el enlace y pégalo tal cual en 'url'. La app lo convierte solo en imagen visible.",
+  "fotos": [],
+
+  "ultimaActualizacion": "2026-07-15T00:00:00-03:00"
+}
