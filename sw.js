@@ -1,4 +1,4 @@
-const CACHE_NAME = 'femvo-olimpiadas-v1';
+const CACHE_NAME = 'femvo-olimpiadas-v5-navy';
 const SHELL_FILES = [
   './',
   './index.html',
@@ -8,7 +8,7 @@ const SHELL_FILES = [
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/emblem-96.png',
-  './img/logo-full.png'
+  './img/logo-full-white.png'
 ];
 
 self.addEventListener('install', (event) => {
